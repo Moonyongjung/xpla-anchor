@@ -1,0 +1,20 @@
+Anchor:
+    CollectBlockCount: 10
+    RequestPeriod: 50
+    DB: 
+        DBUserName: user
+        DBPassword: password
+        DBHost: localhost
+        DBPort: 3306
+        DBName: anchor
+
+PublicChain:
+    ChainID: "dimension_37-1"
+    LCD: https://dimension-lcd.xpla.dev
+    GasAdj: 1.75
+    GasLimit:
+    BroadcastMode: block
+
+PrivateChain:
+    ChainID: privatechain-1
+    LCD: http://localhost:1317
